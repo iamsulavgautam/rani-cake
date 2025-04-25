@@ -128,15 +128,15 @@ const FeaturedProducts: React.FC = () => {
           transition={{ delay: 0.5, duration: 0.5 }}
           viewport={{ once: true }}
         >
-          <motion.button
-            className="px-8 py-3 bg-primary-500 text-white rounded-md font-medium shadow-sm hover:bg-primary-600 transition-colors"
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.98 }}
-          >
+         <motion.button
+  className="px-8 py-3 bg-primary-500 text-white rounded-md font-medium shadow-sm hover:bg-primary-600 transition-colors"
+  whileHover={{ scale: 1.03 }}
+  whileTap={{ scale: 0.98 }}
+  onClick={() => (window.location.href = '/products')}
+>
+  View All Products
+</motion.button>
 
-            
-            View All Products
-          </motion.button>
         </motion.div>
       </div>
     </section>
