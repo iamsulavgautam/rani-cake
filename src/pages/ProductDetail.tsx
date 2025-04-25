@@ -20,7 +20,7 @@ const ProductDetailPage: React.FC = () => {
     if (id) {
       const foundProduct = getProductById(id);
       setProduct(foundProduct);
-      
+
       if (foundProduct) {
         // Get related products (same category, excluding current product)
         const related = getProductsByCategory(foundProduct.category)
@@ -28,7 +28,7 @@ const ProductDetailPage: React.FC = () => {
           .slice(0, 4);
         setRelatedProducts(related);
       }
-      
+
       setLoading(false);
     }
   }, [id, getProductById, getProductsByCategory]);
@@ -68,7 +68,7 @@ const ProductDetailPage: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      
+
       <main className="flex-grow pt-20">
         <div className="container mx-auto px-4 py-8">
           {/* Breadcrumbs */}
@@ -95,7 +95,7 @@ const ProductDetailPage: React.FC = () => {
               <li className="font-medium text-primary-600">{product.name}</li>
             </ol>
           </nav>
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Product Image */}
             <motion.div
@@ -104,13 +104,13 @@ const ProductDetailPage: React.FC = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <img 
-                src={product.image} 
-                alt={product.name} 
+              <img
+                src={product.image}
+                alt={product.name}
                 className="w-full h-full object-cover"
               />
             </motion.div>
-            
+
             {/* Product Details */}
             <motion.div
               className="flex flex-col"
@@ -120,13 +120,13 @@ const ProductDetailPage: React.FC = () => {
             >
               <span className="text-accent-500 font-medium text-sm mb-2">{product.category}</span>
               <h1 className="text-3xl md:text-4xl font-serif font-bold text-gray-800 mb-4">{product.name}</h1>
-              
+
               <div className="mb-6">
                 <span className="text-2xl font-bold text-primary-600">Rs {product.price.toFixed(2)}</span>
               </div>
-              
+
               <p className="text-gray-600 mb-8 leading-relaxed">{product.description}</p>
-              
+
               {/* Metadata */}
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center bg-primary-50 px-4 py-2 rounded-lg">
@@ -136,7 +136,7 @@ const ProductDetailPage: React.FC = () => {
                     <p className="text-sm font-medium">Baked Daily</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center bg-primary-50 px-4 py-2 rounded-lg">
                   <Wheat size={20} className="text-primary-500 mr-2" />
                   <div>
@@ -145,7 +145,7 @@ const ProductDetailPage: React.FC = () => {
                   </div>
                 </div>
               </div>
-              
+
               {/* Ingredients List */}
               {product.ingredients && product.ingredients.length > 0 && (
                 <div className="mb-8">
@@ -160,7 +160,7 @@ const ProductDetailPage: React.FC = () => {
                   </ul>
                 </div>
               )}
-              
+
               {/* Nutrition Info */}
               {product.nutritionInfo && (
                 <div className="mb-8">
@@ -185,24 +185,28 @@ const ProductDetailPage: React.FC = () => {
                   </div>
                 </div>
               )}
-              
+
               <div className="mt-auto pt-4">
-                <Button 
-                  variant="primary" 
-                  size="lg" 
+                <Button
+                  variant="primary"
+                  size="lg"
                   fullWidth
-                  onClick={() => window.alert('Ordering functionality coming soon!')}
+                  onClick={() => {
+
+                    window.location.href = 'tel:9847940662';
+                  }}
+
                 >
                   Order Now
                 </Button>
               </div>
             </motion.div>
           </div>
-          
+
           {/* Related Products */}
           {relatedProducts.length > 0 && (
             <div className="mt-20">
-              <motion.h2 
+              <motion.h2
                 className="text-2xl font-serif font-bold text-gray-800 mb-8"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -214,11 +218,11 @@ const ProductDetailPage: React.FC = () => {
               <ProductGrid products={relatedProducts} />
             </div>
           )}
-          
+
           {/* Back Button */}
           <div className="mt-16 mb-4">
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               icon={<ArrowLeft size={16} />}
               onClick={() => navigate('/products')}
             >
@@ -227,7 +231,7 @@ const ProductDetailPage: React.FC = () => {
           </div>
         </div>
       </main>
-      
+
       <Footer />
     </div>
   );

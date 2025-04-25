@@ -26,6 +26,11 @@ const ContactPage: React.FC = () => {
     }
   };
 
+
+  const handleComingSoon = () => {
+    alert("🚧 This feature is coming soon. Stay tuned!");
+  };
+
   const validateForm = (): boolean => {
     const newErrors: Record<string, string> = {};
 
@@ -287,6 +292,7 @@ const ContactPage: React.FC = () => {
                           variant="primary"
                           size="lg"
                           icon={<Send size={18} />}
+                          onClick={handleComingSoon}
                         >
                           Send Message
                         </Button>
