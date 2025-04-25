@@ -12,23 +12,23 @@ const ContactPage: React.FC = () => {
     subject: '',
     message: '',
   });
-  
+
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [isSubmitted, setIsSubmitted] = useState(false);
-  
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
-    
+
     // Clear error when field is edited
     if (errors[name]) {
       setErrors({ ...errors, [name]: '' });
     }
   };
-  
+
   const validateForm = (): boolean => {
     const newErrors: Record<string, string> = {};
-    
+
     if (!formData.name.trim()) newErrors.name = 'Name is required';
     if (!formData.email.trim()) {
       newErrors.email = 'Email is required';
@@ -37,14 +37,14 @@ const ContactPage: React.FC = () => {
     }
     if (!formData.subject.trim()) newErrors.subject = 'Subject is required';
     if (!formData.message.trim()) newErrors.message = 'Message is required';
-    
+
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
-  
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (validateForm()) {
       // Simulate form submission
       setTimeout(() => {
@@ -62,15 +62,15 @@ const ContactPage: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      
+
       <main className="flex-grow pt-20">
         {/* Hero Banner */}
-        <div className="relative bg-primary-700 text-white"  style={{ backgroundColor: "#b82a29"}}>
+        <div className="relative bg-primary-700 text-white" style={{ backgroundColor: "#b82a29" }}>
           <div className="absolute inset-0 overflow-hidden opacity-20">
-            <div className="absolute top-0 left-0 right-0 h-full bg-repeat" 
-                style={{ backgroundImage: "url('https://www.transparenttextures.com/patterns/food.png')" }}></div>
+            <div className="absolute top-0 left-0 right-0 h-full bg-repeat"
+              style={{ backgroundImage: "url('https://www.transparenttextures.com/patterns/food.png')" }}></div>
           </div>
-          
+
           <div className="container mx-auto px-4 py-16 md:py-24 relative z-10" >
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -83,13 +83,13 @@ const ContactPage: React.FC = () => {
             </motion.div>
           </div>
         </div>
-        
+
         {/* Contact Information & Form */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="flex flex-col lg:flex-row gap-12">
               {/* Contact Information */}
-              <motion.div 
+              <motion.div
                 className="lg:w-1/3"
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -97,7 +97,7 @@ const ContactPage: React.FC = () => {
               >
                 <div className="bg-primary-50 p-8 rounded-lg shadow-subtle h-full">
                   <h2 className="text-2xl font-serif font-bold text-primary-600 mb-6">Get In Touch</h2>
-                  
+
                   <ul className="space-y-6">
                     <li className="flex">
                       <div className="mt-1 mr-4">
@@ -110,7 +110,7 @@ const ContactPage: React.FC = () => {
                         <p className="text-gray-600">Ghorahi, Nepal · Tulsipur, Nepal</p>
                       </div>
                     </li>
-                    
+
                     <li className="flex">
                       <div className="mt-1 mr-4">
                         <div className="bg-primary-100 p-2 rounded-full text-primary-500">
@@ -122,7 +122,7 @@ const ContactPage: React.FC = () => {
                         <p className="text-gray-600">(+977) 123-4567</p>
                       </div>
                     </li>
-                    
+
                     <li className="flex">
                       <div className="mt-1 mr-4">
                         <div className="bg-primary-100 p-2 rounded-full text-primary-500">
@@ -131,10 +131,10 @@ const ContactPage: React.FC = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-gray-800 mb-1">Email Address</h3>
-                        <p className="text-gray-600">info@sweetdelights.com</p>
+                        <p className="text-gray-600">ranicake50@gamil.com</p>
                       </div>
                     </li>
-                    
+
                     <li className="flex">
                       <div className="mt-1 mr-4">
                         <div className="bg-primary-100 p-2 rounded-full text-primary-500">
@@ -148,7 +148,7 @@ const ContactPage: React.FC = () => {
                       </div>
                     </li>
                   </ul>
-                  
+
                   <div className="mt-8">
                     <h3 className="font-bold text-gray-800 mb-3">Follow Us</h3>
                     <div className="flex space-x-4">
@@ -173,9 +173,9 @@ const ContactPage: React.FC = () => {
                   </div>
                 </div>
               </motion.div>
-              
+
               {/* Contact Form */}
-              <motion.div 
+              <motion.div
                 className="lg:w-2/3"
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -183,7 +183,7 @@ const ContactPage: React.FC = () => {
               >
                 <div className="bg-white p-8 rounded-lg shadow-subtle border border-gray-100">
                   <h2 className="text-2xl font-serif font-bold text-primary-600 mb-6">Send Us a Message</h2>
-                  
+
                   {isSubmitted ? (
                     <motion.div
                       initial={{ opacity: 0, scale: 0.9 }}
@@ -197,8 +197,8 @@ const ContactPage: React.FC = () => {
                       <p className="text-green-700 mb-4">
                         Thank you for contacting us. We'll get back to you as soon as possible.
                       </p>
-                      <Button 
-                        variant="primary" 
+                      <Button
+                        variant="primary"
                         onClick={() => setIsSubmitted(false)}
                       >
                         Send Another Message
@@ -217,14 +217,13 @@ const ContactPage: React.FC = () => {
                             name="name"
                             value={formData.name}
                             onChange={handleChange}
-                            className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-400 ${
-                              errors.name ? 'border-red-500' : 'border-gray-300'
-                            }`}
+                            className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-400 ${errors.name ? 'border-red-500' : 'border-gray-300'
+                              }`}
                             placeholder="John Doe"
                           />
                           {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
                         </div>
-                        
+
                         <div>
                           <label className="block text-gray-700 font-medium mb-2" htmlFor="email">
                             Your Email
@@ -235,15 +234,14 @@ const ContactPage: React.FC = () => {
                             name="email"
                             value={formData.email}
                             onChange={handleChange}
-                            className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-400 ${
-                              errors.email ? 'border-red-500' : 'border-gray-300'
-                            }`}
+                            className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-400 ${errors.email ? 'border-red-500' : 'border-gray-300'
+                              }`}
                             placeholder="john@example.com"
                           />
                           {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
                         </div>
                       </div>
-                      
+
                       <div className="mb-6">
                         <label className="block text-gray-700 font-medium mb-2" htmlFor="subject">
                           Subject
@@ -253,9 +251,8 @@ const ContactPage: React.FC = () => {
                           name="subject"
                           value={formData.subject}
                           onChange={handleChange}
-                          className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-400 ${
-                            errors.subject ? 'border-red-500' : 'border-gray-300'
-                          }`}
+                          className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-400 ${errors.subject ? 'border-red-500' : 'border-gray-300'
+                            }`}
                         >
                           <option value="">Select a subject</option>
                           <option value="General Inquiry">General Inquiry</option>
@@ -266,7 +263,7 @@ const ContactPage: React.FC = () => {
                         </select>
                         {errors.subject && <p className="text-red-500 text-sm mt-1">{errors.subject}</p>}
                       </div>
-                      
+
                       <div className="mb-6">
                         <label className="block text-gray-700 font-medium mb-2" htmlFor="message">
                           Your Message
@@ -277,17 +274,16 @@ const ContactPage: React.FC = () => {
                           value={formData.message}
                           onChange={handleChange}
                           rows={6}
-                          className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-400 ${
-                            errors.message ? 'border-red-500' : 'border-gray-300'
-                          }`}
+                          className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-400 ${errors.message ? 'border-red-500' : 'border-gray-300'
+                            }`}
                           placeholder="How can we help you?"
                         ></textarea>
                         {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message}</p>}
                       </div>
-                      
+
                       <div className="flex justify-end">
-                        <Button 
-                          type="submit" 
+                        <Button
+                          type="submit"
                           variant="primary"
                           size="lg"
                           icon={<Send size={18} />}
@@ -302,7 +298,7 @@ const ContactPage: React.FC = () => {
             </div>
           </div>
         </section>
-        
+
         {/* Map Section (placeholder) */}
         <section className="py-16 bg-cream">
           <div className="container mx-auto px-4">
@@ -319,21 +315,23 @@ const ContactPage: React.FC = () => {
                 Come and experience the aroma of freshly baked goods and the warm atmosphere of our bakery.
               </p>
             </motion.div>
-            
+
             <div className="bg-gray-200 h-96 rounded-lg overflow-hidden shadow-md">
               {/* Map would be embedded here */}
               <div className="w-full h-full flex items-center justify-center bg-primary-100">
                 <div className="text-center">
                   <MapPin size={48} className="text-primary-500 mx-auto mb-4" />
-                  <h3 className="text-xl font-bold text-primary-600 mb-2">Sweet Delights Bakery</h3>
-                  <p className="text-gray-600">123 Bakery Street, Sweet City, SC 12345</p>
+                  <h3 className="text-xl font-bold text-primary-600 mb-2">Rani Cake</h3>
+                  <p className="text-gray-600">Ghorahi, Nepal · Tulsipur, Nepal
+
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
       </main>
-      
+
       <Footer />
     </div>
   );

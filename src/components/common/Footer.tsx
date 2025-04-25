@@ -4,7 +4,7 @@ import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, CakeSlice } from 'lu
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-primary-600 text-white"  style={{ backgroundColor: "#b82a29"}}>
+    <footer className="bg-primary-600 text-white" style={{ backgroundColor: "#b82a29" }}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Bakery Info */}
@@ -12,10 +12,10 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-2 mb-4">
               {/* <CakeSlice size={24} className="text-accent-500" /> */}
               <img
-    src="/img/rani.jpg"       
-    alt="Rani Cake logo"
-    className="w-8 h-8 object-contain"
-  />
+                src="/img/rani.jpg"
+                alt="Rani Cake logo"
+                className="w-8 h-8 object-contain"
+              />
               <h3 className="text-xl font-serif font-bold">Rani Cake</h3>
             </div>
             <p className="mb-4 text-gray-300">
@@ -85,11 +85,14 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="text-accent-500 mr-2 flex-shrink-0" />
-                <span>(+977) 123-4567</span>
+                <a href="tel:9847940662" className="hover:underline text-current">
+                  9847940662
+                </a>
               </li>
+
               <li className="flex items-center">
                 <Mail size={20} className="text-accent-500 mr-2 flex-shrink-0" />
-                <span>ranicake@gmail.com</span>
+                <span>ranicake50@gamil.com</span>
               </li>
               <li className="mt-4">
                 <h4 className="font-medium mb-1">Hours</h4>
@@ -99,11 +102,11 @@ const Footer: React.FC = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="mt-10 pt-6 border-t border-gray-700 text-center text-sm text-gray-400">
           <p>&copy; {new Date().getFullYear()} Rani Cake Bakery. All rights reserved.</p>
           <p className="mt-1">
-            <Link to="/privacy" className="hover:text-accent-500 transition-colors">Privacy Policy</Link> | 
+            <Link to="/privacy" className="hover:text-accent-500 transition-colors">Privacy Policy</Link> |
             <Link to="/terms" className="hover:text-accent-500 transition-colors ml-2">Terms of Service</Link>
           </p>
         </div>
