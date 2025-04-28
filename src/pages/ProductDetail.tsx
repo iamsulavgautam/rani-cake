@@ -15,6 +15,8 @@ const ProductDetailPage: React.FC = () => {
   const [product, setProduct] = useState(id ? getProductById(id) : undefined);
   const [relatedProducts, setRelatedProducts] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [showOrderOptions, setShowOrderOptions] = useState(false);
+
 
   useEffect(() => {
     if (id) {
@@ -186,7 +188,42 @@ const ProductDetailPage: React.FC = () => {
                 </div>
               )}
 
-              <div className="mt-auto pt-4">
+
+<div className="mt-auto pt-4 space-y-4">
+  {!showOrderOptions ? (
+    <Button
+      variant="primary"
+      size="lg"
+      fullWidth
+      onClick={() => setShowOrderOptions(true)}
+    >
+      Order Now
+    </Button>
+  ) : (
+    <div className="space-y-4">
+      <Button
+        variant="secondary"
+        size="lg"
+        fullWidth
+        onClick={() => {   window.location.href = 'tel:9847940662';  }}
+
+        // onClick={() => window.open('https://www.facebook.com/yourpage', '_blank')}
+      >
+        Order via Number
+      </Button>
+      <Button
+        variant="success"
+        size="lg"
+        fullWidth
+        onClick={() => window.open('https://wa.me/9779847940662', '_blank')}
+      >
+        Order via WhatsApp
+      </Button>
+    </div>
+  )}
+</div>
+
+              {/* <div className="mt-auto pt-4">
                 <Button
                   variant="primary"
                   size="lg"
@@ -199,7 +236,7 @@ const ProductDetailPage: React.FC = () => {
                 >
                   Order Now
                 </Button>
-              </div>
+              </div> */}
             </motion.div>
           </div>
 

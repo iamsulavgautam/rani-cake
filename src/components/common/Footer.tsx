@@ -22,13 +22,13 @@ const Footer: React.FC = () => {
               Handcrafted bakery goods made with love since 2010. Rani Cake only use the finest ingredients to create delicious treats for every occasion.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-accent-500 transition-colors">
+              <a href="https://www.facebook.com/ranicake01/" className="hover:text-accent-500 transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="hover:text-accent-500 transition-colors">
+              <a href="https://www.facebook.com/ranicake01/" className="hover:text-accent-500 transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="hover:text-accent-500 transition-colors">
+              <a href="https://x.com/Saurav_Paudel10?t=ftZ_NBQZW_nGfKbwDaO1zQ&s=09" className="hover:text-accent-500 transition-colors">
                 <Twitter size={20} />
               </a>
             </div>
@@ -106,8 +106,8 @@ const Footer: React.FC = () => {
         <div className="mt-10 pt-6 border-t border-gray-700 text-center text-sm text-gray-400">
           <p>&copy; {new Date().getFullYear()} Rani Cake Bakery. All rights reserved.</p>
           <p className="mt-1">
-            <Link to="/privacy" className="hover:text-accent-500 transition-colors">Privacy Policy</Link> |
-            <Link to="/terms" className="hover:text-accent-500 transition-colors ml-2">Terms of Service</Link>
+            <Link to="https://www.facebook.com/saurav.paudel.741755/" className="hover:text-accent-500 transition-colors">Saurav</Link> |
+            <Link to="https://www.facebook.com/saurav.paudel.741755/" className="hover:text-accent-500 transition-colors ml-2">Paudel</Link>
           </p>
         </div>
       </div>
