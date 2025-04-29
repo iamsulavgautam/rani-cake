@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
 <div className="relative min-h-screen bg-[#b82a29] flex items-center text-white">
 
     {/* Background Pattern */}
-      <div className="absolute inset-0 overflow-hidden opacity-10">
+      <div className="absolute inset-0 overflow-hidden opacity-10 pointer-events-none">
         <div className="absolute top-0 left-0 right-0 h-40 bg-repeat-x" 
              style={{ backgroundImage: "url('https://www.transparenttextures.com/patterns/food.png')" }}></div>
       </div>
@@ -48,19 +48,19 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.5 }}
           >
-             <Link 
-    to="/products"
-    className="bg-secondary text-white text-lg px-6 py-3 rounded-lg hover:bg-opacity-90 transition"
-  >
-    Explore Our Products
-  </Link>
-
-  <Link 
-    to="/about"
-    className="border border-white text-white text-lg px-6 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition"
-  >
-    Story of Rani Cake
-  </Link>
+                <Button 
+              variant="secondary" 
+              size="lg"
+            >
+              <Link to="/products">Explore Our Products</Link>
+            </Button>
+            <Button 
+              variant="outline" 
+              size="lg"
+              className="border-white text-white hover:bg-white hover:bg-opacity-10"
+            >
+              <Link to="/about">Story of Rani Cake</Link>
+            </Button>
           </motion.div>
         </motion.div>
         
