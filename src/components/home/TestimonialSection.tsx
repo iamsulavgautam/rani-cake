@@ -4,18 +4,18 @@ import { ChevronLeft, ChevronRight, Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: "Ramesh Bahadur",
+    name: "Prabesh Ghimire",
     position: "Founder",
     content: "The best baked goods I’ve ever tasted! Fresh, delicious, and always on time.",
     rating: 5,
-    image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/480581208_571333252589207_440255246789462852_n.jpg?stp=c0.79.720.720a_dst-jpg_s206x206_tt6&_nc_cat=103&ccb=1-7&_nc_sid=50ad20&_nc_ohc=prVGqDLIsLEQ7kNvwGm2UlM&_nc_oc=AdkhH062hcK-GiHHsmurBIVFGYynSpvdv5OMmxqqK3i1GfjWxRaNT-t-lx5njmgwuxY&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=jYxSS6gqypadHWly2P0PNg&oh=00_AfFbfjMJIuVSUJJDrZqYSZcYUiZOq7N0i_SykottPOVPiA&oe=681139A8"
+    image: "https://scontent.fbwa4-1.fna.fbcdn.net/v/t39.30808-6/480692372_631129092995751_3950723051727080254_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=1-7&_nc_sid=50ad20&_nc_ohc=_-tj2hY5YyAQ7kNvwHbJKyH&_nc_oc=Adlo7EVEIGhK-LD7vgP8Wrus5rMJ0i2pnt5Dao3ZimTQb6JahhkrYHBe9g-cpEyqSvM&_nc_zt=23&_nc_ht=scontent.fbwa4-1.fna&_nc_gid=KGA3VB7uQDJW2e4uzho8lg&oh=00_AfEWBNH3kcNKFxG3n5ipAU0Vdo07wfpTH41AqOMsRM_BXg&oe=6816956C"
   },
   {
-    name: "Alex BK",
+    name: "Anamol Gautam",
     position: "CEO",
     content: "Their customer service is top-notch. Highly recommended!",
-    rating: 4.5,
-    image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/484834409_586886797700519_5206476814459663091_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_s206x206_tt6&_nc_cat=100&ccb=1-7&_nc_sid=50ad20&_nc_ohc=S40WLJJmF00Q7kNvwHcvsCc&_nc_oc=AdkfcRhtYAcnQZ5J1HyREMWxRAsRxDSOIVIsmANWht8H-H1jzxQHWCZKSlBeJkwOr3Q&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=A2GPBRmCLwR0NSDx8_1ibw&oh=00_AfHMvqgRyM3bDnTc8WEh76iQh9efwWpjXCqAjo1lbce9hg&oe=68114370"
+    rating: 5,
+    image: "https://scontent.fbwa4-1.fna.fbcdn.net/v/t39.30808-6/480827089_2119308285195637_1564008705800382197_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=TxeYbFwITmsQ7kNvwH2oYiU&_nc_oc=AdnXrDy4OSoW7GcGhEr-B6yxYfyKYnqqj7NVyBh-zDzU6sTGX0dDCCibchcmQIAA624&_nc_zt=23&_nc_ht=scontent.fbwa4-1.fna&_nc_gid=jHCzm5UNcU_vxyG5mfi9cA&oh=00_AfHqH87pWMUzoax81czQpaG0tRgXR75HLJzXaBlGb3Ve_A&oe=681676BD"
   },
   {
     name: "Saurav",

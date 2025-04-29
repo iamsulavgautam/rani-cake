@@ -48,19 +48,19 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.5 }}
           >
-            <Button 
-              variant="secondary" 
-              size="lg"
-            >
-              <Link to="/products">Explore Our Products</Link>
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-white text-white hover:bg-white hover:bg-opacity-10"
-            >
-              <Link to="/about">Story of Rani Cake</Link>
-            </Button>
+             <Link 
+    to="/products"
+    className="bg-secondary text-white text-lg px-6 py-3 rounded-lg hover:bg-opacity-90 transition"
+  >
+    Explore Our Products
+  </Link>
+
+  <Link 
+    to="/about"
+    className="border border-white text-white text-lg px-6 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition"
+  >
+    Story of Rani Cake
+  </Link>
           </motion.div>
         </motion.div>
         

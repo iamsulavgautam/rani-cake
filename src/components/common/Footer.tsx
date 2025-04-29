@@ -58,19 +58,19 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4 border-b border-gray-700 pb-2">Categories</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/products?category=Bread" className="hover:text-accent-500 transition-colors">Bread</Link>
+                <Link to="/products" className="hover:text-accent-500 transition-colors">Bread</Link>
               </li>
               <li>
-                <Link to="/products?category=Pastries" className="hover:text-accent-500 transition-colors">Pastries</Link>
+                <Link to="/products" className="hover:text-accent-500 transition-colors">Pastries</Link>
               </li>
               <li>
-                <Link to="/products?category=Cakes" className="hover:text-accent-500 transition-colors">Cakes</Link>
+                <Link to="/products" className="hover:text-accent-500 transition-colors">Cakes</Link>
               </li>
               <li>
-                <Link to="/products?category=Muffins" className="hover:text-accent-500 transition-colors">Muffins</Link>
+                <Link to="/products" className="hover:text-accent-500 transition-colors">Muffins</Link>
               </li>
               <li>
-                <Link to="/products?category=Desserts" className="hover:text-accent-500 transition-colors">Desserts</Link>
+                <Link to="/products" className="hover:text-accent-500 transition-colors">Desserts</Link>
               </li>
             </ul>
           </div>
