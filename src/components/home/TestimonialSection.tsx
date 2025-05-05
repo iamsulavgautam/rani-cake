@@ -25,7 +25,7 @@ const testimonials = [
     image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/484670012_671826468741662_9219591596783802061_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=9Oa5BzPfHBcQ7kNvwHNjla2&_nc_oc=AdmG9RHc9YRAI6rgU77IbBDFVNwTq5dYVQJLdeAU1NI-HnANfSrCYZhaR4kePOruSAU&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=3rHGLwEAOhfLuw9klAZUIw&oh=00_AfGct_M-1YEhYGr480ncufIvczei67a4Z2wquHGJ2PjYzQ&oe=68113CAC"
   },
   {
-    name: "Dinesh Kafle",
+    name: "Deepak Kafle",
     position: "Founder and CEO",
     content: "Perfect for events—reliable, tasty, and beautifully packaged.",
     rating: 5,

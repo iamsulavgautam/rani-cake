@@ -7,27 +7,27 @@ import { Clock, MapPin, Award, Heart } from 'lucide-react';
 const AboutPage: React.FC = () => {
   const timelineEvents = [
     {
-      year: '2075',
+      year: '',
       title: 'Rani Cake Founded',
       description: 'Our bakery started as a small family business with few cakes in options.',
     },
     {
-      year: '2078',
+      year: '',
       title: 'First Expansion',
-      description: 'We expanded to a ghorahi and expanded our menu to include artisan pastry and cakes.',
+      description: 'We expanded to a ghorahi, Netralal Chowk and expanded our menu to include artisan pastry and cakes.',
     },
     {
-      year: '2079',
+      year: '',
       title: 'Award Recognition',
       description: 'Won "Best Local Bakery" award from the city\'s annual food competition.',
     },
     {
-      year: '2080',
-      title: 'Sustainable Practices',
-      description: 'Implemented eco-friendly packaging and local ingredient sourcing initiatives.',
+      year: '',
+      title: 'Multiple Expansion',
+      description: 'We expanded to Butwal ,Manigram.',
     },
     {
-      year: '2082',
+      year: '',
       title: 'Community Programs',
       description: 'Launched our baking classes and community donation programs.',
     },

@@ -10,7 +10,7 @@ export const initialProducts: Product[] = [
     image: '/img/cake3.jpg',
     featured: true,
     ingredients: ['Blueberry', 'Butterscotch', 'Cream', 'Flour', 'Sugar'],
-    nutritionInfo: { calories: 350, protein: 5, carbs: 40, fat: 20 },
+    nutritionInfo: { calories: 1200, protein: 40, carbs: 200, fat: 37 },
     createdAt: new Date('2025-04-25'),
   },
   {
@@ -22,7 +22,7 @@ export const initialProducts: Product[] = [
     image: '/img/cake6.jpg',
     featured: true,
     ingredients: ['Chocolate', 'Cream', 'Flour', 'Eggs', 'Sugar'],
-    nutritionInfo: { calories: 380, protein: 6, carbs: 42, fat: 24 },
+    nutritionInfo: { calories: 1200, protein: 40, carbs: 200, fat: 37 },
     createdAt: new Date('2025-04-25'),
   },
   {
@@ -34,7 +34,7 @@ export const initialProducts: Product[] = [
     image: '/img/cake4.jpg',
     featured: false,
     ingredients: ['Cream', 'Flour', 'Vanilla', 'Sugar'],
-    nutritionInfo: { calories: 340, protein: 4, carbs: 38, fat: 18 },
+    nutritionInfo: { calories: 1200, protein: 40, carbs: 200, fat: 37 },
     createdAt: new Date('2025-04-25'),
   },
   {
@@ -46,7 +46,7 @@ export const initialProducts: Product[] = [
     image: '/img/cake5.jpg',
     featured: true,
     ingredients: ['Chocolate', 'Cream', 'Flour', 'Sugar'],
-    nutritionInfo: { calories: 400, protein: 5, carbs: 44, fat: 22 },
+    nutritionInfo: { calories: 1200, protein: 40, carbs: 200, fat: 37 },
     createdAt: new Date('2025-04-25'),
   },
   {
@@ -58,7 +58,7 @@ export const initialProducts: Product[] = [
     image: '/img/cake14.jpg',
     featured: false,
     ingredients: ['Chocolate', 'Cream', 'Sugar', 'Decorative Fondant'],
-    nutritionInfo: { calories: 370, protein: 4, carbs: 40, fat: 21 },
+    nutritionInfo: { calories: 1200, protein: 40, carbs: 200, fat: 37 },
     createdAt: new Date('2025-04-25'),
   },
   {
@@ -70,7 +70,7 @@ export const initialProducts: Product[] = [
     image: '/img/cake15.jpg',
     featured: false,
     ingredients: ['Chocolate', 'Cream', 'Sprinkles', 'Flour'],
-    nutritionInfo: { calories: 390, protein: 6, carbs: 43, fat: 23 },
+    nutritionInfo: { calories: 1200, protein: 40, carbs: 200, fat: 37 },
     createdAt: new Date('2025-04-25'),
   },
   {
@@ -82,7 +82,7 @@ export const initialProducts: Product[] = [
     image: '/img/cake16.jpg',
     featured: false,
     ingredients: ['Vanilla', 'Food Color', 'Cream', 'Flour'],
-    nutritionInfo: { calories: 350, protein: 4, carbs: 37, fat: 19 },
+    nutritionInfo: { calories: 1200, protein: 40, carbs: 200, fat: 37 },
     createdAt: new Date('2025-04-25'),
   },
   {
@@ -91,10 +91,10 @@ export const initialProducts: Product[] = [
     description: 'Fun colorful birthday cake, popular among kids.',
     price: 1000,
     category: 'Cakes',
-    image: '/img/cake12.jpg',
+    image: '/img/cake11.jpg',
     featured: true,
     ingredients: ['Vanilla', 'Coloring', 'Cream', 'Flour', 'Sugar'],
-    nutritionInfo: { calories: 330, protein: 4, carbs: 36, fat: 17 },
+    nutritionInfo: { calories: 1200, protein: 40, carbs: 200, fat: 37 },
     createdAt: new Date('2025-04-25'),
   }
 ];
