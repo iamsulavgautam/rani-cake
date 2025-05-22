@@ -8,21 +8,21 @@ const testimonials = [
     position: "Founder",
     content: "The best baked goods I’ve ever tasted! Fresh, delicious, and always on time.",
     rating: 5,
-    image: "https://scontent.fbwa4-1.fna.fbcdn.net/v/t39.30808-6/480692372_631129092995751_3950723051727080254_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=1-7&_nc_sid=50ad20&_nc_ohc=_-tj2hY5YyAQ7kNvwHbJKyH&_nc_oc=Adlo7EVEIGhK-LD7vgP8Wrus5rMJ0i2pnt5Dao3ZimTQb6JahhkrYHBe9g-cpEyqSvM&_nc_zt=23&_nc_ht=scontent.fbwa4-1.fna&_nc_gid=KGA3VB7uQDJW2e4uzho8lg&oh=00_AfEWBNH3kcNKFxG3n5ipAU0Vdo07wfpTH41AqOMsRM_BXg&oe=6816956C"
+    image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/499138016_4013623362237932_4553763475673826319_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEOxG8f6c3akpDU0EcJRI0D3UE6AMh2GFndQToAyHYYWYKdUQWL2i5uZpM-j9gi2qiVZpeaZ_Kx6OlFYF44cJuP&_nc_ohc=UOES_f7ap5YQ7kNvwEdTBaO&_nc_oc=AdnHR2qiV_LTdqdOfkuSBZEB3eCYo-Epm7HcCVMr3E-Ewb7WfkkggPvJDtJUDKMizow&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=DZJ-DzCc9amUCmF8lqHKOQ&oh=00_AfK0tUZCaxp_CCADpy86vmFBeQF8zI9DIcqhatO4fqXm0A&oe=6834AB73"
   },
   {
     name: "Anamol Gautam",
     position: "CEO",
     content: "Their customer service is top-notch. Highly recommended!",
     rating: 5,
-    image: "https://scontent.fbwa4-1.fna.fbcdn.net/v/t39.30808-6/480827089_2119308285195637_1564008705800382197_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=TxeYbFwITmsQ7kNvwH2oYiU&_nc_oc=AdnXrDy4OSoW7GcGhEr-B6yxYfyKYnqqj7NVyBh-zDzU6sTGX0dDCCibchcmQIAA624&_nc_zt=23&_nc_ht=scontent.fbwa4-1.fna&_nc_gid=jHCzm5UNcU_vxyG5mfi9cA&oh=00_AfHqH87pWMUzoax81czQpaG0tRgXR75HLJzXaBlGb3Ve_A&oe=681676BD"
+    image: "https://www.instagram.com/an_am9015/p/DFCxKbNSTi_/"
   },
   {
     name: "Saurav",
     position: "Food Blogger",
     content: "I can't get enough of their cupcakes! Pure bliss in every bite.",
     rating: 5,
-    image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/484670012_671826468741662_9219591596783802061_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=9Oa5BzPfHBcQ7kNvwHNjla2&_nc_oc=AdmG9RHc9YRAI6rgU77IbBDFVNwTq5dYVQJLdeAU1NI-HnANfSrCYZhaR4kePOruSAU&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=3rHGLwEAOhfLuw9klAZUIw&oh=00_AfGct_M-1YEhYGr480ncufIvczei67a4Z2wquHGJ2PjYzQ&oe=68113CAC"
+    image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/464913703_577118504879126_6483489249958874572_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHSKv-SKfMCszq4-hP94hyZsdRGvi9HrG2x1Ea-L0esbU_m4lsI4npeeF_Ek47zr9jpPbdyCOuglcebYA6CbA6p&_nc_ohc=nWg_YX05R4MQ7kNvwF1-lEC&_nc_oc=AdlVMJPC6hyG8jBDZI-00beEBLqfNA8rtzT8NcSUFATuIooT7khs-RC5Oa6pI3zaKJY&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=_qoB0r63t5aPzB3ZwbakCg&oh=00_AfIn1J3uY7IFxHXouD7HdTLl84HXaIgpsEl2n5oTSpT1wQ&oe=68348E0E"
   },
   {
     name: "Deepak Kafle",
