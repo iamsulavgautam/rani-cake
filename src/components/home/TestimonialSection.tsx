@@ -15,7 +15,7 @@ const testimonials = [
     position: "CEO",
     content: "Their customer service is top-notch. Highly recommended!",
     rating: 5,
-    image: "https://www.instagram.com/an_am9015/p/DFCxKbNSTi_/"
+    image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/494518845_2435214433508855_8604738329767385055_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=103&ccb=1-7&_nc_sid=669761&_nc_eui2=AeELq8nR_fI_cRTCl3OcypBlMC9iwqLDjbEwL2LCosONsevF6jf89FmeQHherGYDuS2ULH7cPgVpvwh8QqzXve4J&_nc_ohc=b-mAMlD0BGUQ7kNvwFSf3mj&_nc_oc=AdlKZuRPY0MRGPb6JOY0iUHJekYMVmROlPXShnoKSZ8rpXB6y5qTOIOGaXi268QjRhA&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=PEXEsXyf9HFI-EZ2Wis0Iw&oh=00_AfLvgMLaLbX1yOiXxgcOlp4yZyfB2kPYeXQAEL0nOyj7HQ&oe=6834BCCC"
   },
   {
     name: "Saurav",
@@ -29,7 +29,7 @@ const testimonials = [
     position: "Founder and CEO",
     content: "Perfect for events—reliable, tasty, and beautifully packaged.",
     rating: 5,
-    image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/481077413_569035742818958_653514518851406894_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=GVkQdWzq6IEQ7kNvwEtTtHp&_nc_oc=Admp3jfc0xKIt4s2_2BFZpeqJcSNTYEOTyzd71g0V8xBvfB45rm10wuIbf9raEFDqmU&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=ZvBE63mz7R76SYK8gpjGDQ&oh=00_AfGTH3fJatkqxXQ4dQTTTicRCvgB8rwsGlDhqLQFvp0RHg&oe=68114C07"
+    image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/425504663_24799493963029137_3437064304766866673_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFicU8-dWATM9kAAD6PlgWRTY4gM22G22lNjiAzbYbbae_ZMycjttry2KbZvJMF2ZRxopUID2Bl2XYD9ct80LMQ&_nc_ohc=PvufEqPgLJwQ7kNvwG-XFDS&_nc_oc=AdlbS7uaID7HQjSd_gKdE32pgqiCVxhPC1U2l2VyrwOkUn8yJrhVswiOg-I617zbYlc&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=aDY-n6tBwNOEVLSmd00Svg&oh=00_AfLv89tg2FIu7v9n0VaHNREs11nsZdgMPbntOKvQ5-CE0Q&oe=68349DA1"
   }
 ];
 
