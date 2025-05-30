@@ -8,29 +8,23 @@ const testimonials = [
     position: "Founder",
     content: "The best baked goods I’ve ever tasted! Fresh, delicious, and always on time.",
     rating: 5,
-    image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/499138016_4013623362237932_4553763475673826319_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEOxG8f6c3akpDU0EcJRI0D3UE6AMh2GFndQToAyHYYWYKdUQWL2i5uZpM-j9gi2qiVZpeaZ_Kx6OlFYF44cJuP&_nc_ohc=UOES_f7ap5YQ7kNvwEdTBaO&_nc_oc=AdnHR2qiV_LTdqdOfkuSBZEB3eCYo-Epm7HcCVMr3E-Ewb7WfkkggPvJDtJUDKMizow&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=DZJ-DzCc9amUCmF8lqHKOQ&oh=00_AfK0tUZCaxp_CCADpy86vmFBeQF8zI9DIcqhatO4fqXm0A&oe=6834AB73"
+    image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/473551653_604888988953095_7989269014417471424_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFzR_PHsnWilGN_-OReL-ASCzOSUJa4u-cLM5JQlri75-WbcbFmgaFyV63I0uq_d_wrNje5uSELw0efq3xaj_DG&_nc_ohc=xaBOLSBOys0Q7kNvwHLL82F&_nc_oc=AdkxLe_VXito1jepNZxR-QJDEkVLoophKdhlHZizpDxekvsvfbQMZvQuh9mKbCaITZg&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=UBaHszSm5_kEtU1LahWQAQ&oh=00_AfJk_BsHEW8wo_w_vHGftMQtZ_qwIMABcHmGjbxsiZbwGQ&oe=683F2FF0"
   },
   {
     name: "Anamol Gautam",
     position: "CEO",
     content: "Their customer service is top-notch. Highly recommended!",
     rating: 5,
-    image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/494518845_2435214433508855_8604738329767385055_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=103&ccb=1-7&_nc_sid=669761&_nc_eui2=AeELq8nR_fI_cRTCl3OcypBlMC9iwqLDjbEwL2LCosONsevF6jf89FmeQHherGYDuS2ULH7cPgVpvwh8QqzXve4J&_nc_ohc=b-mAMlD0BGUQ7kNvwFSf3mj&_nc_oc=AdlKZuRPY0MRGPb6JOY0iUHJekYMVmROlPXShnoKSZ8rpXB6y5qTOIOGaXi268QjRhA&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=PEXEsXyf9HFI-EZ2Wis0Iw&oh=00_AfLvgMLaLbX1yOiXxgcOlp4yZyfB2kPYeXQAEL0nOyj7HQ&oe=6834BCCC"
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQFVJao7nXUNkw/profile-displayphoto-shrink_200_200/B4DZSEIn0bHkAc-/0/1737383642852?e=1753920000&v=beta&t=H8LrVLnU0WsL1cNiRQ771rfod5thoVvddk2FXrmwD0s"
   },
   {
     name: "Saurav",
     position: "Food Blogger",
     content: "I can't get enough of their cupcakes! Pure bliss in every bite.",
     rating: 5,
-    image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/464913703_577118504879126_6483489249958874572_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHSKv-SKfMCszq4-hP94hyZsdRGvi9HrG2x1Ea-L0esbU_m4lsI4npeeF_Ek47zr9jpPbdyCOuglcebYA6CbA6p&_nc_ohc=nWg_YX05R4MQ7kNvwF1-lEC&_nc_oc=AdlVMJPC6hyG8jBDZI-00beEBLqfNA8rtzT8NcSUFATuIooT7khs-RC5Oa6pI3zaKJY&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=_qoB0r63t5aPzB3ZwbakCg&oh=00_AfIn1J3uY7IFxHXouD7HdTLl84HXaIgpsEl2n5oTSpT1wQ&oe=68348E0E"
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQGPx-v9MvEp_g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725327621215?e=1753920000&v=beta&t=g-2BMZZHu7_5pa0YJeHRSKim42aoK6zg5vFJSB1rkgs"
   },
-  {
-    name: "Deepak Kafle",
-    position: "Founder and CEO",
-    content: "Perfect for events—reliable, tasty, and beautifully packaged.",
-    rating: 5,
-    image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/425504663_24799493963029137_3437064304766866673_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFicU8-dWATM9kAAD6PlgWRTY4gM22G22lNjiAzbYbbae_ZMycjttry2KbZvJMF2ZRxopUID2Bl2XYD9ct80LMQ&_nc_ohc=PvufEqPgLJwQ7kNvwG-XFDS&_nc_oc=AdlbS7uaID7HQjSd_gKdE32pgqiCVxhPC1U2l2VyrwOkUn8yJrhVswiOg-I617zbYlc&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=aDY-n6tBwNOEVLSmd00Svg&oh=00_AfLv89tg2FIu7v9n0VaHNREs11nsZdgMPbntOKvQ5-CE0Q&oe=68349DA1"
-  }
+
 ];
 
 const TestimonialSection: React.FC = () => {

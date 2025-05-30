@@ -140,7 +140,7 @@ const LoginPage: React.FC = () => {
               
               <div className="text-center mt-4 text-sm text-gray-600">
                 <p>Default admin credentials:</p>
-                <p className="font-mono bg-gray-100 p-1 rounded mt-1">Username: admin | Password: admin123</p>
+                <p className="font-mono bg-gray-100 p-1 rounded mt-1"></p>
               </div>
             </form>
           </div>
